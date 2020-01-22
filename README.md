@@ -21,10 +21,11 @@ This demo assumes you have your developer environment ready to go and that you h
     $ git clone https://github.com/aws-samples/alexa-skill-authentication
     ```
 
-2. If it's your first time using it, **initiatialize** the ASK CLI by navigating into the repository and running ask command: `ask init`. Follow the prompts. This will initialize credentials profile and help you configure credentials to access Alexa Skills Kit Developer Console and the AWS Console.
+2. If it's your first time using it, rename the config.template file to config, then **initiatialize** the ASK CLI by navigating into the repository and running ask command: `ask init`. Follow the prompts. This will initialize credentials profile and help you configure credentials to access Alexa Skills Kit Developer Console and the AWS Console.
 
 	```bash
 	$ cd alexa-skill-authentication
+    $ mv .ask/config.template .ask/config
 	$ ask init
 	```
 
@@ -86,7 +87,7 @@ This demo assumes you have your developer environment ready to go and that you h
     Model deployment finished.
     [Info]: No lambda functions need to be deployed.
     [Info]: No in-skill product to be deployed.
-    Your skill is now deployed and enabled in the development stage. Try simulate your Alexa skill skill using "ask dialog" command.
+    Your skill is now deployed and enabled in the development stage. Set the ASK_DEFAULT_DEVICE_LOCALE environment variable to "en-us", then try simulate your Alexa skill skill using "ask dialog" command.
     ```
 
 8. Test the Skill. Refer to ```Testing the Skill``` section for Instructions on testing the skill.

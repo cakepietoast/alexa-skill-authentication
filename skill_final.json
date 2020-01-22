@@ -8,8 +8,8 @@
       "containsAds": false,
       "locales": {
         "en-US": {
-          "privacyPolicyUrl": "https://url/privacy.html",
-          "termsOfUseUrl": "https://url/termsofuse.html"
+          "privacyPolicyUrl": "https://example.com/privacy.html",
+          "termsOfUseUrl": "https://example.com/termsofuse.html"
         }
       }
     },
